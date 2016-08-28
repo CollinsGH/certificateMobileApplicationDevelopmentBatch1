@@ -1,0 +1,20 @@
+.redFonts {
+    color: red;
+}
+h2.greenFonts {
+    color: green;
+}
+p.greenFonts {
+    color: lightgreen;
+}
+
+.headings {
+    text-decoration: underline;
+  
+}
+#div1 .headings {
+    color: blue;
+}
+#div2 .headings {
+  color: red;
+}

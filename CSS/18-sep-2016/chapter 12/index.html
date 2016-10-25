@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Fonts </title>
+    <style>
+       
+        h1 {
+            font-family: cmad;
+        }
+         @font-face {
+            font-family: "cmad";
+            src: url("fonts/BRLNSB.TTF")
+        }
+        span {
+            display: block;
+        }
+        span::first-letter {
+            color: red;
+            font-size: 20px;
+        }
+        a:visited {
+            color: red;
+        }
+       a:hover {
+           color: green;
+           text-decoration: none;
+       }
+       a:link {
+           color: brown;
+       }
+       a:active {
+           color: black;
+       }
+     
+      p[class$="b"]{
+         background-color: red;  
+       }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <span>hello <br> 
+    world</span>
+    <a href="#">Google</a>
+    <a href="#">Facebook</a>
+    <p class="abc">Para1</p>
+    <p class="asssb">Para2</p>
+    <input type="text">
+</body>
+</html>
